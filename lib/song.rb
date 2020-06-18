@@ -1,3 +1,4 @@
+require "pry"
 class Song
   
   attr_accessor :name, :artist
@@ -13,7 +14,12 @@ class Song
   end
   
   def artist_name
-   
+   if self.artist.name == self
+     puts self.artist.name
+    else
+      puts nil
+    end
+    
   end
 end
 

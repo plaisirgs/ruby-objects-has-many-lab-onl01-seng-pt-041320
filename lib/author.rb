@@ -6,11 +6,11 @@ class Author
     @name = name
   end
   
-  def add_post_by_title(name)
+  # def add_post_by_title(name)
   
-  end
+  # end
   
-  def self.post_count
+  # def self.post_count
     
-  end
+  # end
 end
